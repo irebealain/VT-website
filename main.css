@@ -49,6 +49,7 @@ nav {
   margin: 1rem 2rem 0 2rem;
   height: 5rem;
   padding: 0 2.5rem;
+  color: #fff;
 }
 
 /* Hero section styles */
@@ -116,6 +117,7 @@ nav {
   align-items: center;
   border: 1px solid #fff;
   padding: 0 0 1rem 0;
+  border-radius: 10px;
 }
 .ctaTitle {
   display: flex;
@@ -132,14 +134,22 @@ nav {
   gap: 1rem;
   margin-top: 2rem;
 }
+.ctaPrimary {
+  padding: 4rem 2rem;
+}
 .price {
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
   padding: 2rem 2rem;
+  border: 1px solid var(--text-grey);
 }
 .amount {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  width: 70%;
+  justify-items: center;
+  align-items: center;
 }
 .priceTags {
   display: grid;
@@ -147,6 +157,7 @@ nav {
   width: 90%;
   margin-left: 4rem;
   margin-top: 1rem;
+  column-gap: 2rem;
 }
 /* switch */
 .switch {
@@ -208,16 +219,26 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-
+.signBtn {
+  background-color: var(--primary-blue);
+  border: none;
+  border-radius: 40px;
+  height: 3rem;
+  width: 15rem;
+  font-size: 1.0rem;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
 /* Eric */
-/* .line {
+.line {
   background-color: white;
   height: 2px;
   border: none;
 }
 /* How It works section*/
-/* .how-heading h1 {
+.how-heading h1 {
   font-size: 65px;
+  margin-bottom: 3rem;
 }
 .how-section {
   display: flex;
@@ -232,16 +253,21 @@ input:checked + .slider:before {
   }
 }
 .how-it-works {
-  padding-bottom: 20px;
-  padding: 20px;
+  /* padding-bottom: 20px; */
+  padding: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  /* margin-left: 5rem; */
 }
 .how-paragraph {
   display: flex;
   flex-direction: column;
   gap: 1em;
-} */
+}
 /* Trusted by section */
-/* .trusted-by {
+.trusted-by {
   padding-bottom: 20px;
   padding: 30px;
 }
@@ -251,6 +277,7 @@ input:checked + .slider:before {
   flex-direction: row;
   gap: 6em;
   align-items: center;
+  margin-top: 3rem;
 }
 .trust-img img {
   width: 768px;
@@ -389,7 +416,7 @@ input:checked + .slider:before {
 
 
 /* Utility Classes*/
-/* .container-lg {
+.container-lg {
   max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
@@ -433,4 +460,4 @@ input:checked + .slider:before {
 .text-l {
   font-size: 1.8em;
   font-weight: 400;
-} */ */
+} */
